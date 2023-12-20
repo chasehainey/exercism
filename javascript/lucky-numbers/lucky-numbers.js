@@ -29,15 +29,6 @@ export function luckyNumber(value) {
  * @returns {string} error message
  */
 export function errorMessage(input) {
-  /* if (input === null  || input === undefined || input == '') {
-    return 'Required field';
-  } else if (typeof(Number(input)) == 'number') {
-      return '';
-  } else if (!Number.isNaN(input)) {
-    return 'Must be a number besides 0';
-  } else {
-    return '';
-  } */
   if (input == '' || input == null || input == undefined) {
     return 'Required field';
   } else if (!Number(input) == true) {
